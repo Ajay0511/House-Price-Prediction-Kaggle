@@ -1,0 +1,4 @@
+In this Project ,  i mentioned the information regarding the Training and Test datasets. I also analysed the Data using Pandas library . Visualization of data is done using matplotlib and seaborn.
+ Later on i removed  all the data that was not in numerical form or have missing data.Imputing of data is done to fills missing values using SIMPLE IMPUTER.
+Parameter tuning was done with use of GridSearchCV which evaluated model for all combination of algorithms specified in a grid. GridSearchCV helped me find out the best parameters for our model.
+i used XGBoost Regressor to predict the data since it supports both regression and classification predictive modelling problems.It helped me increase the accuracy of my model.
